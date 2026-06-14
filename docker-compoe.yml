@@ -1,0 +1,11 @@
+services:
+  netease-lyrics-bot:
+    build: .
+    container_name: netease-lyrics-bot
+    restart: unless-stopped
+
+    environment:
+      - BOT_TOKEN=${BOT_TOKEN}
+
+    volumes:
+      - ./:/usr/local/app:ro
