@@ -55,7 +55,7 @@ export BOT_TOKEN=your_token_here
 
 ```bash
 pip install -r requirements.txt
-python bot.py
+python main.py
 ```
 
 ---
